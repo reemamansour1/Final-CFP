@@ -1,0 +1,55 @@
+body{
+    background-color: #333;
+}
+nav{
+    border-radius: 20px;
+    
+}
+.home{
+    margin-right: 700px;
+    top: 0;
+    left: 0;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    color : white;
+    padding :25px;
+    font-size: 20px;
+}
+nav ul li a{
+    color:rgba(145, 125, 125, 0.5);
+    position: relative;
+    display: inline-block;
+}
+li::before{
+    color:yellow;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .3s;
+    border-bottom: 3px solid rgb(236, 199, 130);
+
+}
+li:hover::before{
+    color: yellow;
+}
+
+
+
+@media(max-width:700px){
+    nav{
+        display: block;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        padding: 10px 0;
+    }
+}
+
