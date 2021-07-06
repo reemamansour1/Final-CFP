@@ -23,12 +23,7 @@ nav{
   justify-content: space-around;
   margin-left: 160px;
   list-style: none;
-  transition: 1s;
   white-space: nowrap
-}
-.nav-links:hover{
-  transform: scale(1.06);
-
 }
 .App-header{
   width: 100%;

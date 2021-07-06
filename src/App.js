@@ -31,7 +31,7 @@ function App() {
 }
 const Home = () =>(
   <div>
-     <Screen />
+     {/* <Screen /> */}
      <Search />
   </div>
   );

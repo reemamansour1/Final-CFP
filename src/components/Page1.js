@@ -49,8 +49,8 @@ return (
         <div className="inputSide">
           <input className = 'input' type="number" autocomplete="off" required  onChange = {inputs} value ={input1} placeholder = 'Write your Weight' />
           <input className = 'input' type="number" autocomplete="off" required onChange = {inputss} value ={input2} placeholder = 'Write your Height' />
-          
-          <button className = 'button'onClick = {show}>Submit</button>
+          <button className = 'button' onClick = {show}>Submit</button>
+
         </div>
         <p>{Click}</p>
     

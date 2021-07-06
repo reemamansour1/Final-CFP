@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://i.pinimg.com/236x/64/f3/84/64f38416ad363cd307f7610e552eb86f.jpg");
+  /* background-image: url("https://i.pinimg.com/236x/64/f3/84/64f38416ad363cd307f7610e552eb86f.jpg"); */
+  background-color: white;
+
 }
 
 code {
